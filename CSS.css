@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(to bottom,blue,transparent);
+    background-size:110% 3000px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+fieldset{
+    background-color: white;
+    border:solid black;
+    width:30%;
+}
+#img1{
+    transform: translate(1250px,0);
+    border:solid black;
+}
+#img2{
+    transform: translate(1270px,0);
+    border:solid black;
+}
+#img3{
+    transform: translate(1290px,0);
+    border:solid black;
+}
+#img4{
+    transform: translate(1310px,0);
+    border:solid black;
+}
+p{
+    color:navy;
+}
+p:hover{
+    color:black;
+}
+label{
+    color:darkmagenta;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+input:checked{
+    transform: translate(2px,2px);
+}
+#img1:active{
+    border:red solid;
+}
+#img2:active{
+    border:red solid;
+}
+#img3:active{
+    border:red solid;
+}
+#img4:active{
+    border:red solid;
+}
+#b1{
+    color:grey;
+}
+#b1:active{
+    color:blue;
+}
+img[src="star.jpg"]{
+    transform: translate(0,2px);
+}
+#div1{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+}
+#div2{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+}
+#f1,#f2,#f3{
+    transform: translate(0,30px);
+}
+#div3{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+}
+#f4,#f5,#f6{
+    transform:translate(0,60px);
+}
+label::selection{
+    color:blue;
+    background-color: yellow;
+}
+#div4{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+}
+#f7,#f8,#f9{
+    transform: translate(0,90px);
+}

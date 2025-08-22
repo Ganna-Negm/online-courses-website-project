@@ -1,0 +1,98 @@
+#div1{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+}
+body{
+    background-image: linear-gradient(to bottom,blue,transparent);
+    background-size: 110% 3000px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+p{
+    color:blue;
+
+}
+fieldset{
+    background:white;
+    border:black solid;
+    width: 30%;
+    
+}
+p:hover{
+    color:black;
+}
+#img1{
+    transform: translate(1275px,0);
+    border:black solid;
+}
+#img2{
+    transform: translate(1295px,0);
+    border:black solid;
+}
+#img3{
+    transform: translate(1315px,0);
+    border:solid black;
+}
+#img4{
+    transform: translate(1335px,0);
+    border:solid black;
+}
+#img1:active{
+    border:solid red;
+}
+#img2:active{
+    border:solid red;
+}
+#img3:active{
+    border:red solid;
+}
+#img4:active{
+    border:red solid;
+}
+#div2{
+    display:flex;
+    flex-flow: row ;
+    justify-content: space-evenly;
+}
+#f1,#f2,#f3{
+    transform: translate(0,30px);
+}
+#div3{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+}
+#div4{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+}
+#f4,#f5,#f6{
+    transform: translate(0,60px);
+}
+#f7,#f8,#f9{
+    transform: translate(0,90px);
+}
+input:checked{
+    transform: translate(2px,2px);
+}
+label{
+    color:darkmagenta;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img[src="star.jpg"]{
+    transform: translate(0,2px);
+}
+#b1{
+    color:grey;
+}
+#b1:active{
+    color:blue;
+}
+label::selection{
+    background-color: yellow;
+    color:blue;
+}

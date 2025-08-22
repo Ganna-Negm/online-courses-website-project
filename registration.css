@@ -1,0 +1,147 @@
+body{
+    background-image: linear-gradient(to bottom,blue  ,transparent  );
+    background-repeat: no-repeat;
+    background-size:100% 1400px;
+    background-attachment: scroll;
+}
+div{
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+    font-size:30px;
+}
+div .div1{
+    background-color: whitesmoke;
+    
+}
+img[src="images/google.jpg"]{
+    transform: translate(-141.5px,0);
+
+}
+img[src="images/facebook.jpg"]{
+    transform: translate(-141.5px,0);
+}
+img[src="images/email.jpg"]{
+    transform:translate(-141.5px,0)
+}
+#google:active{
+    color:blue;
+
+}
+#facebook:active{
+    color:blue;
+}
+#email:active{
+    color:blue;
+}
+input[id="name"]{
+    width:70%;
+    height: 30px;
+    font-size:20px;
+}
+label[for="name"]{
+    font-size:20px;
+    font-weight: bold;
+}
+input[id="age"]{
+    width:71.3%;
+    height:30px;
+    font-size:20px;
+}
+label[for="age"]{
+    font-size:20px;
+    font-weight: bold;
+}
+input[id="email"]{
+    width:70%;
+    height:30px;
+    font-size:20px;
+}
+label[for="email"]{
+    font-size:20px;
+    font-weight: bold;
+}
+legend{
+    color:whitesmoke;
+    font-size:30px;
+}
+input[id="phone"]{
+    width:70%;
+    height:30px;
+    font-size:20px;
+}
+label[for="phone"]{
+    font-size:20px;
+    font-weight: bold;
+}
+input[id="id"]{
+    width:70%;
+    height:30px;
+    font-size:20px;
+}
+label[for="id"]{
+    font-size:20px;
+    font-weight: bold;
+}
+label[for="course"]{
+    font-size:30px;
+    font-weight: bold;
+}
+#label1{
+    color:darkblue;
+    font-size:20px;
+    font-weight: bold;
+}
+input[id="faculty"]{
+    width:70%;
+    height:30px;
+    font-size:20px;
+}
+label[for="faculty"]{
+    font-size:20px;
+    font-weight: bold;
+}
+input[id="uni"]{
+    width:70%;
+    height:30px;
+    font-size:20px;
+}
+label[for="uni"]{
+    font-size:20px;
+    font-weight:bold;
+}
+#gender{
+    font-size:30px;
+    font-weight: bold;
+}
+#label2{
+    color:darkblue;
+    font-size:20px;
+    font-weight:bold;
+}
+h3{
+    font-size:30px;
+    font-weight: bold;
+}
+textarea{
+    background-color: wheat;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+div button{
+    display:flex;
+    flex-flow: row;
+    justify-content:space-evenly;
+    box-shadow: 10px 10px 10px  10px  blue inset;
+    font-weight: bold;
+}
+#reset{
+    transform: translate(-800px,0);
+}
+#reset:active{
+    color:aliceblue;
+}
+#send:active{
+    color:aliceblue;
+}
